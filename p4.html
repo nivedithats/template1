@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .combination{
+            background-color: blueviolet;
+            color: white;
+            padding: 20px;
+        }
+        .combination>h3{
+            color: brown;
+        }
+        .combination > p{
+            color: aqua;
+        }
+        .combination > div{
+            background-color: azure;
+            padding: 30px;
+            color: rgb(24, 25, 26);
+        }
+        .combination > div > h3, .combination>div>p{
+            font-style: italic;
+            background-color: rgb(178, 211, 240);
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1>There are 4  different combination in css...!</h1>
+    </center>
+    <hr>
+    <ol>
+        <li>Descendent Selector (using space)</li>
+        <li>Child Selector (Using > symbal)</li>
+        <li>Adjacent Sibling selector (using + symbol)</li>
+        <li>General Sibling Selector (Using ~ Symbol)</li>
+    </ol>
+    <hr>
+    
+    <li>Child Selector (Using > symbal)</li>
+
+    <hr>
+    <section class="combination" id="Neha">
+        <h3>Frist h3 tag...(child element)</h3>
+        <p>Frist paragrapg..!(child element)</p>
+
+        <h3>Frist h3 tag...(child element)</h3>
+        <p>Frist paragrapg..!(child element)</p>
+
+        <h3>Frist h3 tag...(child element)</h3>
+        <p>Frist paragrapg..!(child element)</p>
+
+        <div class="container">
+            <h3>Frist h3 tag...(child element)</h3>
+            <p>Frist paragrapg..!(child element)</p>
+        </div>
+
+        <h3>Frist h3 tag...(child element)</h3>
+        <p>Frist paragrapg..!(child element)</p>
+    </section>
+</body>
+
+</html>

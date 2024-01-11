@@ -1,0 +1,317 @@
+.combination{
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+.combination + h3{
+    background-color: brown;
+    padding: 30px;
+}
+selection + h3 + p + h3 + [href]{
+    background-color: blueviolet;
+    padding: 30px;
+} 
+/*p8.html*/
+.combination ~ h3{
+    background-color: blueviolet;
+    padding: 30px;
+}
+/*color.html*/
+.cssColor{
+    background-color: cadetblue;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+
+
+}
+.cssColor1{
+    background-color: #e32362;/*color keyword value*/
+    border: 4px solid black ;
+    color: #fff;
+}
+.cssColor2{
+    background-color: #e3136a;/*color keyword value*/
+    border: 30px solid #1713e350;
+    color: #fff;
+}
+.cssColor3{
+    background-color: rgb(red, green, blue);/*color keyword value*/
+    border: 30px solid rgb(59, 4, 4,0.5);/*red, green, blue,alpha*/
+    color: rgb(255, 255, 255);
+}
+/*design.html*/
+.cssFont p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: lighter;/*100-900 BOLD BOLDER LIGHTER*/
+    font-size: 25px;
+    font-variant: small-caps;
+}
+.cssText p{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    text-indent: 300px;/*it will give space at left for first line*/
+
+}
+.cssText h2{
+    text-decoration: underline;
+}
+/*nav.html*/
+nav img{
+    width: 50px;
+}
+nav ul li{
+    display: inline-block;
+     padding: 5px 20px;
+     transition: 0.7s;
+
+}
+nav ul li:hover{
+    background-color: #000;
+    border-radius: 100px;
+}
+nav ul{
+    float: right;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+
+}
+nav ul li:hover a{
+    color: #fff;
+}
+nav{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* basic.html*/
+
+.list-marker-position >ol>li{
+    background-color: rgb(150, 224, 224);
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+    color: #e3dada;
+    font-size: 30px;
+
+    
+
+
+}
+.list-marker-position>OL>LI::marker{ /*pseudo class selecter */
+    color: yellow;
+    font-size: 60PX;
+    font-weight: 900;
+}
+.list-marker-position>OL>li>a{
+    color: #4a4545;
+    text-decoration: none;
+}
+
+/* basic1.html */
+.list-icons >ul>li:nth-child(1)::marker{
+    content:"😎" ;
+
+}
+.list-icons >ul>li:nth-child(2)::marker{
+    content: "😉";
+}
+/*basic2.html*/
+.list-images>ul>li{
+list-style-image:url("./checked.png") ;
+}
+.list-shortand>ul>li{
+    background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 20px;
+     /*list-style-type: none;
+     list-style-position:inside ;
+     list-style-image: url("./checked.png");*/
+     list-style: circle inside url("./checked.png");
+}
+
+/* basic4.html*/
+.empty-cell-table{
+    empty-cells: hide;
+}
+/* basic5.html*/
+.odd-even-table. ,.odd-even-table th, .odd-even-table td{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    padding: 80px;
+}
+.odd-even-table tr:nth-child(even){
+    background-color: #76a546;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: antiquewhite;
+}
+.odd-even-table tr:hover{
+    background-color: gray;
+}
+.odd-even-table th{
+    background-color: #000;
+    color: #fff;
+    width: 200px;
+}
+.odd-even-table caption{
+    color: #6992c8;
+    font-weight: 900;
+    padding: 20px;
+    background-color: rgb(240, 95, 235);
+    caption-side: top;
+}
+.odd-even-table td{
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}
+/*basic6.html*/
+.layout-table,.layout-table th, .layout-table td{
+    border: 2px solid #808080;
+    border-collapse:collapse  ;
+    padding: 20px;   
+}
+.layout-table{ 
+    width: 500px;
+    table-layout: fixed;
+}
+.layout-table th, .layout-table td{
+    overflow: auto;
+}
+
+/*media1.html*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   header{
+   background-color: #726a6a;
+   padding: 10px;
+   }
+   header nav img{
+       width: 50px;
+   }
+   header nav ul{
+       float: right;
+   }
+   header nav ul li{
+       display: inline-block;
+      /* padding: 10px; */
+      padding: 16px;
+      transition: 1s;
+   }
+   header nav ul li a{
+       color: rgb(46, 43, 43);
+       text-decoration: none;
+   }
+   header nav ul li:hover{
+       background-color: #9f2b1e;
+   }
+   header nav ul li button{
+       padding: 8px;
+       border: none;
+       border-radius: 5px;
+       background:linear-gradient(45deg, #b70627, #6a0ab3);
+       color: #fff;
+   }
+   /* MEDIA.html*/
+   .bannerCommonClass{
+       min-height: 60vh;
+       padding: 30px;
+       color: #fff;
+       text-align: center;
+   }
+   .bannerCommonClass>h1{
+       font-size: 50px;
+   }
+   .banner1{
+   background-color: rgb(135, 13, 13);
+   }
+   .btns{
+       margin-top: 30px;
+   }
+   .btns button{
+       border: none;
+       padding: 15px;
+       margin-left: 5px;
+       border-radius: 5px;
+       font-size: 20px;
+   }
+   .btns button:nth-child(1){
+       background-color: #cc2323;
+       color: #fff;
+   }
+   .btns button:nth-child(2){
+       background-color: #0a9ec3;
+   }
+   
+
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3498db; /* Change the color as needed */
+    color: #ffffff; /* Change the text color as needed */
+    text-align: center;
+    padding: 10px;
+}
+
+.banner {
+    background-color: #c8157a; /* Change the color as needed */
+    color: #ffffff; /* Change the text color as needed */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+    
+}
+.btn button{
+    padding: 20px;
+    margin: 20px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+@media screen (max-width: 728px) {
+    .banner {
+        font-size: 18px;
+        padding: 20px;
+        
+    }
+    .btn{
+       font-size: 20px;
+    }
+}
+.banner2 {
+    background: url(https://media.istockphoto.com/id/1425821264/photo/abstract-sound-wave-web-banner-artificial-intelligence-expressed-by-moving-particles-3d.webp?b=1&s=170667a&w=0&k=20&c=wwlIanP0M2smYP76ijHilb238VN0-Lwe76_iU4zOYPM=);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    letter-spacing: 3px;
+    font-weight: 900;
+    word-spacing: 4px;
+    line-height: 2;
+}

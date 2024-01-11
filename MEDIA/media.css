@@ -1,0 +1,26 @@
+/p8table.html/
+
+@media(max-width:768px){
+    header{
+        background-color: #0b0a0a;
+        text-align: center;
+    }
+    header nav ul{
+        float: none;
+    }
+    header nav ul li{
+        display: block;
+    }
+    header nav ul li button{
+        width: 100%;
+    }
+    .bannerCommonClass>h1{
+      font-size: 25px;
+    }
+    .btn button{
+        width: 100%;
+         margin-bottom: 20px;
+         font-size: 15px;
+    }
+      
+}
